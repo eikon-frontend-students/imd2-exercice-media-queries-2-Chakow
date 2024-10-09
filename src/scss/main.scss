@@ -346,3 +346,50 @@ footer {
   align-items: center;
   gap: 20px;
 }
+@media (min-width: 1200) {
+  .branding {
+    text-align: left;
+    h1 {
+      font-size: 50px;
+    }
+  }
+  .burger {
+    display: none;
+  }
+  .show {
+    h3 {
+      font-size: 34px;
+      .show-date,
+      .show-origin {
+        font-size: 18px;
+      }
+    }
+  }
+  .quote-content {
+    font-size: 34px;
+  }
+  .quote-source {
+    font-size: 18px;
+  }
+  .section-title {
+    font-size: 50px;
+  }
+  .article-summary {
+    font-size: 18px;
+  }
+  .opportunities-title {
+    font-size: 50px;
+  }
+  .opportunity {
+    font-size: 34px;
+  }
+  .footer-title {
+    font-size: 100px;
+  }
+  .footer-contact-title {
+    font-size: 18px;
+  }
+  .footer-contact-link {
+    font-size: 18px;
+  }
+}
